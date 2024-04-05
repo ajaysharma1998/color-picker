@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+   height: 35%;
+   width: 75%;
+   /* border: 1px solid black; */
+   display: flex;
+   cursor: pointer;
+
+}
+#main{
+    height: 100%;
+    width: 14%;
+    border: 1px solid rgb(1, 32, 1);
+    border-radius: 6px;
+    align-content: center;
+    text-align: center;
+}
+#child{
+    height: 100%;
+    width: calc(100% - 14%);
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#child div{
+    height: 20px;
+    width: 80px;
+    /* border: 1px solid gray; */
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 10px;
+}
+#child div:hover{
+    background-color: rgb(185, 182, 182);
+}
+

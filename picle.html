@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./picle.css">
+</head>
+<body>
+    <div class="parent">
+        <div id="main">
+        <h3>change color</h3>
+        </div>
+        <div id="child">
+            <div class="color-box-1"onclick="red()">Red</div>
+            <div class="color-box-1"onclick="green()" >Green</div>
+            <div class="color-box-1"onclick="blue()">Blue</div>
+            <div class="color-box-1"onclick="yellow()">Yellow</div>
+            <div class="color-box-1"onclick="purple()">Purple</div>
+            <div class="color-box-2"onclick="orange()">Orange</div>
+            <div class="color-box-7"onclick="pink()" >Pink</div>
+            <div class="color-box-8"onclick="cyan()" >Cyan</div>
+        </div>
+
+    </div>
+    <script>
+        let coloring=document.getElementById('main');
+        function red(){
+            coloring.style.backgroundColor='red';
+        }
+        function green(){
+            coloring.style.backgroundColor='green';
+        }
+        function blue(){
+            coloring.style.backgroundColor='blue';
+        }
+        function yellow(){
+            coloring.style.backgroundColor='yellow';
+        }
+        function purple(){
+            coloring.style.backgroundColor='purple';
+        }
+        function orange(){
+            coloring.style.backgroundColor='orange';
+        }
+        function pink(){
+            coloring.style.backgroundColor='pink';
+        }
+        function cyan(){
+            coloring.style.backgroundColor='cyan';
+        }
+    </script>
+
+</body>
+</html>
